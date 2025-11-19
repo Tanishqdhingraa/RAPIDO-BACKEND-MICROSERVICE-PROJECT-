@@ -6,6 +6,7 @@ function connect() {
         console.log('captain service connected to MongoDB');
     }).catch(err => {
         console.log(err);
+        
     });
 }
 
