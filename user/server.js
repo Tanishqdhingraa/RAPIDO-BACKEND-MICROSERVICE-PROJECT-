@@ -8,5 +8,5 @@ const PORT = process.env.PORT;
 
 
 server.listen(3001, () => {
-    console.log(`User service is running at ${PORT}`);
+    console.log(` 🤞User service is running at ${PORT}`);
 });
