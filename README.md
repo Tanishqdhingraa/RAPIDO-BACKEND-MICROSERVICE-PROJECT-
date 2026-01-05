@@ -1,25 +1,24 @@
+🚕 Uber Microservices Clone (Backend)
 
-Uber Microservices Clone
-
-A backend-focused Uber-like ride booking system built using microservices architecture, designed to simulate real-world ride matching, authentication, and service communication.
+A backend-focused Uber-like ride booking system built using microservices architecture, simulating real-world ride matching, authentication, and inter-service communication.
 
 🧩 Microservices
 
-User Service – User registration, authentication (JWT)
+User Service – User registration & JWT authentication
 
-Captain Service – Driver onboarding & availability
+Captain Service – Driver onboarding & availability management
 
-Ride Service – Ride creation, lifecycle, and assignment
+Ride Service – Ride creation, lifecycle & driver assignment
 
-API Gateway – Central entry point, routing & authentication
+API Gateway – Central routing, authentication & request handling
 
 🛠 Tech Stack
 
-Node.js & Express
+Node.js, Express
 
 MongoDB
 
-RabbitMQ (async event-based communication)
+RabbitMQ (event-driven communication)
 
 JWT Authentication
 
@@ -27,24 +26,20 @@ Docker & Docker Compose
 
 ⚙️ Key Features
 
-Microservices-based architecture
+Microservices-based, loosely coupled architecture
 
 Event-driven communication using RabbitMQ
 
-Secure authentication with JWT
+Secure, stateless JWT authentication
 
-Scalable & loosely coupled services
-
-Centralized API Gateway
+Centralized API Gateway for scalability
 
 📌 Architecture Highlights
 
 Asynchronous ride request & acceptance flow
 
-Stateless authentication for scalability
-
-Designed with real-world ride-hailing system principles
+Designed following real-world ride-hailing system principles
 
 🚀 Use Case
 
-This project demonstrates system design, backend scalability, and microservices communication, making it suitable for backend internships and junior backend roles.
+Showcases backend system design, scalability, and microservices communication, making it ideal for backend internships and junior backend roles.
